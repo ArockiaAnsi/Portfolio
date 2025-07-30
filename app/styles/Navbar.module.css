@@ -1,0 +1,46 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a6c1ee);
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  justify-content: space-between; /* logo on left, menu centered by flex-grow */
+  gap: 40px;
+}
+
+/* Logo aligned left */
+.navbar-logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  flex-shrink: 0; /* prevent shrinking */
+}
+
+/* Menu container flex-grow to take remaining space and center menu */
+.navbar-menu {
+  display: flex;
+  gap: 12px; /* space between menu items */
+  flex-grow: 1;
+  justify-content: center; /* center menu items horizontally */
+}
+
+/* Individual menu items styled as pill buttons */
+.navbar-menu a {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.navbar-menu a:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}

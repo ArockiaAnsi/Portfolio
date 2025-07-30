@@ -1,0 +1,57 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  background: transparent;
+  flex-wrap: wrap;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* Soft corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+  color: #333;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 1.2rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.techStack {
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
