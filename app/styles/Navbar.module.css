@@ -6,29 +6,26 @@
   display: flex;
   align-items: center;
   padding: 16px 32px;
-  justify-content: space-between; /* logo on left, menu centered by flex-grow */
+  justify-content: space-between;
   gap: 40px;
 }
 
-/* Logo aligned left */
-.navbar-logo {
+.navbarLogo {
   font-size: 1.25rem;
   font-weight: bold;
   color: black;
   text-decoration: none;
-  flex-shrink: 0; /* prevent shrinking */
+  flex-shrink: 0;
 }
 
-/* Menu container flex-grow to take remaining space and center menu */
-.navbar-menu {
+.navbarMenu {
   display: flex;
-  gap: 12px; /* space between menu items */
+  gap: 12px;
   flex-grow: 1;
-  justify-content: center; /* center menu items horizontally */
+  justify-content: center;
 }
 
-/* Individual menu items styled as pill buttons */
-.navbar-menu a {
+.navbarMenu a {
   padding: 8px 14px;
   background: linear-gradient(135deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1);
   border-radius: 12px;
@@ -40,7 +37,7 @@
   white-space: nowrap;
 }
 
-.navbar-menu a:hover {
+.navbarMenu a:hover {
   background-color: #f0f0f0;
   color: #333;
 }

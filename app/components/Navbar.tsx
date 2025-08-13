@@ -6,15 +6,15 @@ import styles from '../styles/Navbar.module.css';
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <Link href="#home" className={styles['navbar-logo']}>
+      <Link href="#home" className={styles['navbarLogo']}>
         Ansi Britto
       </Link>
 
-      <div className={styles['navbar-menu']}>
-        <Link href="#about" className={styles['navbar-link']}>About</Link>
-        <Link href="#skills" className={styles['navbar-link']}>Skills</Link>
-        <Link href="#projects" className={styles['navbar-link']}>Projects</Link>
-        <Link href="#contact" className={styles['navbar-link']}>Contact</Link>
+      <div className={styles['navbarMenu']}>
+        <Link href="#about">About</Link>
+        <Link href="#skills">Skills</Link>
+        <Link href="#projects">Projects</Link>
+        <Link href="#contact">Contact</Link>
       </div>
     </nav>
   );

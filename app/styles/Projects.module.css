@@ -52,17 +52,14 @@
 
 .projectLink {
   display: inline-block;
-  background-color: #222;
-  color: white;
-  padding: 0.5rem 0.75rem;
-  border-radius: 999px;
-  font-weight: 600;
+  padding: 0.5rem 1rem;
+  color: black;
   text-decoration: none;
-  line-height: 1;
+  border-radius: 20px; 
+  font-weight: 600;
+  transition: background-color 0.3s ease;
 }
 
 .projectLink:hover {
-  background: linear-gradient(135deg, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1);
-  color: white; 
-  box-shadow: 0 4px 12px rgba(197, 154, 230, 0.6);
+  background-color: #7a7989;
 }
