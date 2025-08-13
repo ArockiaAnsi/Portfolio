@@ -14,7 +14,7 @@ export default function IntroSection() {
         transition={{ duration: 1 }}
       >
         <Image
-          src="/ansiBritto.png"
+          src="/ansi.png"
           alt="Ansi Britto"
           width={300}
           height={300}
